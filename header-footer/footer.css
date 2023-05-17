@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+:root {
+    --Primary: #344e41;
+    --Secondary: #dad7cd;
+    --Primary-Button: #3a5a40;
+    --Secondary-Button: #b5c49c;
+    --Accent: #588157;
+
+    --Primary-Font: "Inter","sans-serif";
+    --Font-Color: #344e41;
+}
+
+footer {
+    background: var(--Secondary);
+    font-family: var(--Primary-Font);
+    color: var(--Secondary);
+    text-align: left;
+
+    width: 90%;
+    border-radius: 10px;
+    margin: 32px 20px;
+    padding: 32px;
+    background-color: var(--Primary);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+
+.logo-footer {
+    font-size: 1.5em;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    gap: 8px;
+}
+
+footer p {
+    opacity: 60%;
+}
+
+footer h4 {
+    font-size: 0.9em;
+    opacity: 60%;
+
+}
+
+@media screen and (min-width: 850px) {
+    footer {    
+        max-width: 900px;
+    }
+} 

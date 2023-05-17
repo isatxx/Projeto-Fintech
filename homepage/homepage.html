@@ -9,7 +9,8 @@
     <link rel="icon" type="image/x-icon" href="../img/favicon.svg">
 
     <link rel="stylesheet" href="../reset.css">
-    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../header-footer/header.css">
+    <link rel="stylesheet" href="../header-footer/footer.css">
     <link rel="stylesheet" href="homepage.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -18,44 +19,53 @@
 <body>
     <header>
         <a href="homepage.html" class="logo"><i class="ph-bold ph-piggy-bank"></i>Fintech</a>
-        <nav>
+        <nav class="menu">
             <a href="homepage.html">Página Inicial</a>
             <a href="#">Aplicativo</a>
             <a href="#">Sobre</a>
             <button class="login-hp-btn"><a href="../login/login.html">Login</a></button>
         </nav>
-        <i class="ph ph-list menuHamburguer"></i>
+        <i class="ph-bold ph-list menuHamburguer"></i>
     </header>
 
     <main>
-        <section>
+        <section class="banner">
             <img src="../img/Personal finance-cuate.svg" alt="Imagem objetivos financeiros">
-            <h1>Junte-se a nós e baixe o App para maior controle do seu dinheiro!</h1>
+            <h1>Junte-se a nós e <a href="../login/login.html" class="crie-conta">crie uma conta</a> para maior controle do seu dinheiro!</h1>
         </section>
 
         <hr class="line">
-        
+
+        <h2>Por que juntar-se a nós?</h2>
         <section class="propriedades">
             <div class="itens">
                 <i class="ph ph-chart-pie-slice"></i>
-                <h2>Monitore seus gastos </h2>
+                <h3>Monitore seus gastos </h2>
             </div>
                 
             <div class="itens">
                 <i class="ph ph-hand-coins"></i>
-                <h2>Gerencie suas economias </h2>
+                <h3>Gerencie suas economias </h2>
             </div>
             
             <div class="itens">
                 <i class="ph ph-trend-up"></i>
-                <h2>Melhore sua vida financeira </h2>
+                <h3>Melhore sua vida financeira </h2>
             </div>
         </section>
     </main>
 
     <footer>
-        
-    </footer>
+        <div class="logo-footer">
+             <i class="ph-bold ph-piggy-bank"></i>
+             <h3 >Fintech</h3>
+         </div>
+         <h4>CRÉDITOS</h4>
+         <a href="https://storyset.com" target="_blank">Illustrations by Storyset</a>
+         <a href="https://phosphoricons.com" target="_blank">Icons by Phosphor</a>
+         <br>
+         <p>Desenvolvido por Isabelle Toniolo.</p>
+     </footer>
     <script src="../header/hamburguer_menu.js"></script>
 </body>
 </html>

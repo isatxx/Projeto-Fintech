@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 :root {
     --Primary: #344e41;
@@ -43,13 +43,12 @@ header {
 nav {
     display: none;
 }
-.menuHamburguer, .ph {
-    font-size: 26px;
-    font-weight: bold;
+.menuHamburguer {
+    font-size: 2em;
 }
 
 .logo {
-    font-size: 1.3em;
+    font-size: 2em;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -77,7 +76,7 @@ header a {
         padding: 8px;
         justify-content: space-between;
         align-items: center;
-        font-size: 0.85em;
+        font-size: 0.95em;
         gap: 16px;
     }
     nav a {
@@ -88,6 +87,7 @@ header a {
     nav a:hover {
         transform: translate(0, -4px);
     }
+
     .login-hp-btn {
         background-color: var(--Primary-Button);
         color: var(--Secondary);
