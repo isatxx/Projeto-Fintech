@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+:root {
+    --Primary: #344e41;
+    --Secondary: #dad7cd;
+    --Primary-Button: #3a5a40;
+    --Secondary-Button: #b5c49c;
+    --Accent: #588157;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +16,11 @@
 }
 
 body {
-    background-color: #6f9744;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
+    background-color: var(--Secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -83,7 +92,7 @@ h1 {
     color: #6f9744;
 }
 
-button {
+main button {
     margin-top: 20px;
     width: 100%;
     height: 80px;

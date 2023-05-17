@@ -1,73 +1,81 @@
-.box-1 {
-    display:flex;
-    text-align:center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    --Primary: #344e41;
+    --Secondary: #dad7cd;
+    --Primary-Button: #3a5a40;
+    --Secondary-Button: #b5c49c;
+    --Accent: #588157;
+
+    --Primary-Font: "Inter","sans-serif";
+    --Font-Color: #344e41;
+}
+
+body {
+    background-color: var(--Secondary);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:auto;
-    background-color: #fff;
-    width: 80%;
-    margin-top: 120px;
-    border-radius: 15px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.236);
 }
 
-img {
-    width: 50%;
-    border-radius: 15px;
-}
-
-h1 {
-    font-size: 4vw;
-    color: #6f9744;
-    width: 50%;
-}
-
-.box-2 {
-    display:flex;
-    text-align:center;
-    justify-content: space-between;
+main {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin:auto;
-    width: 70%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: center;
+    margin-top: 45px;
+    padding: 32px;
+    font-family: var(--Primary-Font);
+    color: var(--Font-Color);
+}
+img {
+    width: 100%;
+    backdrop-filter: blur(50px);
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 6px;
+}
+main h1 {
+    font-weight: 800;
+    font-size: clamp(1.5rem, -1.3rem + 16vw, 3rem);
+    text-align: center;
 }
 
-.box-3 {
-    display:block;
-    text-align:center;
-    width: 50%;   
-    height: 100px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 50px;
+.line {
+    width: 100%;
+    height: 0;
+    margin: 20px 0px;
+    border: 1px solid var(--Primary);
 }
 
-h2 {
-    font-size: 3vw;
-    color: #6f9744;
-    padding-bottom: 10px;
-}
+.propriedades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 32px;
 
-i {
-    color: #6f9744;
-    font-size: 4vw;
-    margin-right: 7px;
-    vertical-align: middle;
-    padding: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
 }
 
 .itens {
-    background-color: #fff;
-    border-radius: 15px;
-    height: 100%;
-    width: 45%;
-    padding: 20px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.236);
+    width: 100%;
+    height: 200px;
+    backdrop-filter: blur(50px);
+    background-color: #D1D0C6;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+
 }
 
-.box-3.itens {
-    width: 34%;
+.itens i {
+    font-size: 5em;
 }
-
 
