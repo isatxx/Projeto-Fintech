@@ -78,7 +78,7 @@ header a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 695px) {
+@media screen and (min-width: 750px) {
     header {
         position: relative;
     }
